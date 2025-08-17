@@ -1,0 +1,41 @@
+dl{
+
+background-color: green;
+
+
+}
+/*dsfsdgdsgdfgdgdfgfcgfgfg*?
+
+/*this style was implemented to explain External CSS concept*/
+
+  ul{
+     background-color: burlywood;
+      }
+
+      p{
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+font-size: x-large;
+      }
+
+      ol{
+
+          background-color: aquamarine;
+      }
+
+      #idJaismeen{
+background-color: cadetblue;
+font-size: xx-large;
+
+      }
+
+      .ClassSelector{
+
+         background-color: black;
+         color: bisque;
+      }
+
+     section,article{
+
+      background-color: chocolate;
+     }
+      

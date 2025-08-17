@@ -1,0 +1,75 @@
+
+<html>
+
+<head>
+    <style>
+input[type="text"]{
+
+    border: 2px solid blue;
+}
+input[type="password"]{
+
+    border: 2px solid red;
+}
+
+
+
+p::first-letter{
+
+    font-size: 200;
+    color:orange;
+}
+    </style>
+
+</head>
+
+<body>
+
+    <form action="SaveStudentDetails">
+<fieldset>
+    <legend>Personal Information</legend>
+<label>Name   :</label> <input type="text"> <br>
+<label>Age    :</label> <input type="text"><br>
+<label>Pasword :</label> <input type="password"><br>
+<label>Gender</label> <br>
+<input type="RADIo" name="gender"> Male<br>
+<input type="radio" name="gender"> Female<br>
+<input type="radio" name="gender"> Transgender<br>
+
+</fieldset>
+
+<fieldset>
+    <legend>School Information</legend>
+<label>Center</label><br>
+<input type="checkbox"> Center 1
+<input type="checkbox"> Center 2
+<input type="checkbox"> Center 3
+<input type="checkbox"> Center 4 <br><br>
+
+<label>Subject</label><br>
+<input type="checkbox"> s 1
+<input type="checkbox"> s 2
+<input type="checkbox"> s 3
+<input type="checkbox"> s 4 <br><br>
+
+<label>Country</label>
+<select>
+<option>-----Select Country---</option>
+<option value="Ind">India</option>
+<option value="Nig">Nigeria</option>
+<option value="Ghn">Ghana</option>
+<option>Cameroon</option>
+
+</select>
+
+</fieldset>
+
+
+<button type="submit">Submit</button>
+</form>
+
+
+</body>
+
+</html>
+
