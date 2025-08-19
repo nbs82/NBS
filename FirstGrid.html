@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Bootstrap Grid Example</title>
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+<div class="container">
+  <h2 class="text-center my-4">Bootstrap Grid Example</h2>
+  
+  <!-- Row with 3 equal columns -->
+  <div class="row">
+    <div class="col bg-primary text-white p-3">Column 1</div>
+    <div class="col bg-success text-white p-3">Column 2</div>
+    <div class="col bg-danger text-white p-3">Column 3</div>
+  </div>
+
+  <hr>
+
+  <!-- Row with different column sizes -->
+  <div class="row">
+    <div class="col-6 bg-warning p-3">col-6 (Half width)</div>
+    <div class="col-3 bg-info p-3">col-3 (One fourth)</div>
+    <div class="col-3 bg-secondary text-white p-3">col-3 (One fourth)</div>
+  </div>
+
+  <hr>
+
+  <!-- Responsive columns -->
+  <div class="row">
+    <div class="col-12 col-md-8 bg-light p-3">col-12 on small, col-md-8 on medium+</div>
+    <div class="col-12 col-md-4 bg-dark text-white p-3">col-12 on small, col-md-4 on medium+</div>
+  </div>
+
+</div>
+
+<!-- Bootstrap JS (Optional for some features like dropdowns, modals, etc.) -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
